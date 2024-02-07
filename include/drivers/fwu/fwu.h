@@ -15,6 +15,7 @@
 
 void fwu_init(void);
 uint32_t fwu_get_active_bank_state(void);
+uint32_t fwu_get_alternate_boot_bank(void);
 const struct fwu_metadata *fwu_get_metadata(void);
 
 #endif /* FWU_H */
